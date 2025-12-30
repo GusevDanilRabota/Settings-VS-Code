@@ -1,0 +1,249 @@
+[
+  {
+    "recommendations": [
+      "ms-vscode.cpptools", // Основное расширение для C/C++
+      "ms-vscode.cpptools-extension-pack", // Дополнительные инструменты
+      "austin.code-gnu-global", // Поддержка GNU Global
+      "jeff-hykin.better-cpp-syntax", // Улучшенный синтаксис C/C++
+      "twxs.cmake", // Поддержка CMake
+      "ms-vscode.cmake-tools" // Инструменты CMake
+    ]
+  },
+  {
+    "identifier": {
+      "id": "gitbybit.gitbybit",
+      "uuid": "29d84cf1-f24e-4069-8fd0-da6cc2789242"
+    },
+    "version": "0.14.11",
+    "location": {
+      "$mid": 1,
+      "fsPath": "c:\\Users\\Gusev\\.vscode\\extensions\\gitbybit.gitbybit-0.14.11",
+      "_sep": 1,
+      "path": "/c:/Users/Gusev/.vscode/extensions/gitbybit.gitbybit-0.14.11",
+      "scheme": "file"
+    },
+    "relativeLocation": "gitbybit.gitbybit-0.14.11",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1766164454180,
+      "pinned": false,
+      "source": "gallery",
+      "id": "29d84cf1-f24e-4069-8fd0-da6cc2789242",
+      "publisherId": "ada99baa-3180-4a42-92c3-dcbde6003d89",
+      "publisherDisplayName": "GitByBit",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "github.copilot",
+      "uuid": "23c4aeee-f844-43cd-b53e-1113e483f1a6"
+    },
+    "version": "1.388.0",
+    "location": {
+      "$mid": 1,
+      "fsPath": "c:\\Users\\Gusev\\.vscode\\extensions\\github.copilot-1.388.0",
+      "_sep": 1,
+      "path": "/c:/Users/Gusev/.vscode/extensions/github.copilot-1.388.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "github.copilot-1.388.0",
+    "metadata": {
+      "installedTimestamp": 1765472851409,
+      "pinned": false,
+      "source": "gallery",
+      "id": "23c4aeee-f844-43cd-b53e-1113e483f1a6",
+      "publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002",
+      "publisherDisplayName": "GitHub",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "github.copilot-chat",
+      "uuid": "7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f"
+    },
+    "version": "0.35.2",
+    "location": {
+      "$mid": 1,
+      "fsPath": "c:\\Users\\Gusev\\.vscode\\extensions\\github.copilot-chat-0.35.2",
+      "_sep": 1,
+      "path": "/c:/Users/Gusev/.vscode/extensions/github.copilot-chat-0.35.2",
+      "scheme": "file"
+    },
+    "relativeLocation": "github.copilot-chat-0.35.2",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1766164453203,
+      "pinned": false,
+      "source": "gallery",
+      "id": "7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f",
+      "publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002",
+      "publisherDisplayName": "GitHub",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "mhutchie.git-graph",
+      "uuid": "438221f8-1107-4ccd-a6fe-f3b7fe0856b7"
+    },
+    "version": "1.30.0",
+    "location": {
+      "$mid": 1,
+      "fsPath": "c:\\Users\\Gusev\\.vscode\\extensions\\mhutchie.git-graph-1.30.0",
+      "_sep": 1,
+      "path": "/c:/Users/Gusev/.vscode/extensions/mhutchie.git-graph-1.30.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "mhutchie.git-graph-1.30.0",
+    "metadata": {
+      "installedTimestamp": 1763466485576,
+      "pinned": false,
+      "source": "gallery",
+      "id": "438221f8-1107-4ccd-a6fe-f3b7fe0856b7",
+      "publisherId": "996496dc-099f-469d-b89c-0d7713179365",
+      "publisherDisplayName": "mhutchie",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-toolsai.datawrangler",
+      "uuid": "de3960e6-b262-4565-8a1c-9870629f1ed9"
+    },
+    "version": "1.24.0",
+    "location": {
+      "$mid": 1,
+      "fsPath": "c:\\Users\\Gusev\\.vscode\\extensions\\ms-toolsai.datawrangler-1.24.0",
+      "_sep": 1,
+      "path": "/c:/Users/Gusev/.vscode/extensions/ms-toolsai.datawrangler-1.24.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-toolsai.datawrangler-1.24.0",
+    "metadata": {
+      "isApplicationScoped": false,
+      "isMachineScoped": false,
+      "isBuiltin": false,
+      "installedTimestamp": 1764198711733,
+      "pinned": false,
+      "source": "gallery",
+      "id": "de3960e6-b262-4565-8a1c-9870629f1ed9",
+      "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "updated": true,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-vscode.remote-explorer",
+      "uuid": "11858313-52cc-4e57-b3e4-d7b65281e34b"
+    },
+    "version": "0.5.0",
+    "location": {
+      "$mid": 1,
+      "fsPath": "c:\\Users\\Gusev\\.vscode\\extensions\\ms-vscode.remote-explorer-0.5.0",
+      "_sep": 1,
+      "path": "/c:/Users/Gusev/.vscode/extensions/ms-vscode.remote-explorer-0.5.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-vscode.remote-explorer-0.5.0",
+    "metadata": {
+      "installedTimestamp": 1767096283815,
+      "pinned": false,
+      "source": "gallery",
+      "id": "11858313-52cc-4e57-b3e4-d7b65281e34b",
+      "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-vscode.remote-server",
+      "uuid": "105c0b3c-07a9-4156-a4fc-4141040eb07e"
+    },
+    "version": "1.5.3",
+    "location": {
+      "$mid": 1,
+      "fsPath": "c:\\Users\\Gusev\\.vscode\\extensions\\ms-vscode.remote-server-1.5.3",
+      "_sep": 1,
+      "path": "/c:/Users/Gusev/.vscode/extensions/ms-vscode.remote-server-1.5.3",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-vscode.remote-server-1.5.3",
+    "metadata": {
+      "installedTimestamp": 1767096283814,
+      "pinned": false,
+      "source": "gallery",
+      "id": "105c0b3c-07a9-4156-a4fc-4141040eb07e",
+      "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "pkief.material-icon-theme",
+      "uuid": "5db78037-f674-459f-a236-db622c427c5b"
+    },
+    "version": "5.30.0",
+    "location": {
+      "$mid": 1,
+      "fsPath": "c:\\Users\\Gusev\\.vscode\\extensions\\pkief.material-icon-theme-5.30.0",
+      "_sep": 1,
+      "path": "/c:/Users/Gusev/.vscode/extensions/pkief.material-icon-theme-5.30.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "pkief.material-icon-theme-5.30.0",
+    "metadata": {
+      "installedTimestamp": 1767096543914,
+      "pinned": false,
+      "source": "gallery",
+      "id": "5db78037-f674-459f-a236-db622c427c5b",
+      "publisherId": "f9e5bc2f-fea1-4075-917f-d83e01e69f56",
+      "publisherDisplayName": "Philipp Kief",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  }
+]
