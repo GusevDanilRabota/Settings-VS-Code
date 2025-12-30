@@ -1,0 +1,79 @@
+[
+  // ============================================
+  // НАВИГАЦИЯ ПО КОДУ И РЕДАКТОРУ
+  // ============================================
+  // Перемещает курсор к парной скобке. Последовательные нажатия "прыгают" между открывающей и закрывающей скобкой
+  {
+    "key": "ctrl+q",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  // Выделяет всё содержимое внутри ближайших скобок, включая сами скобки.
+  {
+    "key": "ctrl+shift+q",
+    "command": "editor.action.selectToBracket",
+    "when": "editorTextFocus"
+  },
+  // ============================================
+  // РАБОТА СО СТРОКАМИ И ТЕКСТОМ
+  // ============================================
+  // Удаляет всю строку, на которой находится курсор, без необходимости её предварительно выделять.
+  {
+    "key": "shift+delete",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus"
+  },
+  // Выделяет всю текущую строку (целиком).
+  {
+    "key": "ctrl+l",
+    "command": "expandLineSelection",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  // Перемещает строку с курсором вверх или вниз.
+  {
+    "key": "alt+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  // Дублирует строку с курсором вниз или вверх.
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  // ============================================
+  // РАБОТА С ФАЙЛАМИ И ИНТЕРФЕЙСОМ
+  // ============================================
+  {
+    "key": "ctrl+alt+right",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  // Перемещает активную вкладку редактора в соседнюю группу (вправо или влево).
+  {
+    "key": "ctrl+alt+left",
+    "command": "workbench.action.moveEditorToPreviousGroup"
+  },
+  // Сохранить все открытые файлы. Это "аккорд": сначала `Ctrl+K`, затем `S`.
+  {
+    "key": "ctrl+k s",
+    "command": "workbench.action.files.saveAll"
+  },
+  // ============================================
+  // ИНСТРУМЕНТЫ РАЗРАБОТЧИКА
+  // ============================================
+  // Быстро открыть или закрыть панель вывода (Output).
+  {
+    "key": "ctrl+shift+u",
+    "command": "workbench.action.output.toggleOutput"
+  }
+]
