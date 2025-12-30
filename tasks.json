@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    // ========================================
+    // ОБЩИЕ (БАЗОВЫЕ) ЗАДАЧИ
+    // ========================================
+    {
+      "label": "Открыть терминал в корне проекта",
+      "type": "shell",
+      "command": "cmd.exe", // Для Windows. Для Linux/macOS укажите "bash"
+      "args": [
+        "/k",
+        "cd",
+        "${workspaceFolder}"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "group": "none"
+    },
+    {
+      "label": "Очистить папку сборки (build)",
+      "type": "shell",
+      "command": "rm",
+      "args": [
+        "-rf",
+        "${workspaceFolder}/build"
+      ],
+      "windows": {
+        "command": "cmd.exe",
+        "args": [
+          "/c",
+          "if exist build rmdir /s /q build"
+        ]
+      },
+      "group": "build",
+      "problemMatcher": []
+    }
+    // ========================================
+    // ДОБАВЛЯЙТЕ СПЕЦИФИЧНЫЕ ЗАДАЧИ НИЖЕ
+    // Они будут разными для проектов C/C++, Python и других.
+    // ========================================
+  ]
+}
