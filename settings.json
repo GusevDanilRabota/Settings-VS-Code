@@ -1,0 +1,169 @@
+{
+  // ============================================
+  // ОСНОВНЫЕ НАСТРОЙКИ ИНТЕРФЕЙСА (WORKBENCH)
+  // ============================================
+  // Не открывать начальную страницу или последнюю сессию. Сразу показывать пустой редактор.
+  "workbench.startupEditor": "none",
+  // Тема иконок для улучшенной визуальной навигации по файлам.
+  "workbench.iconTheme": "material-icon-theme",
+  // Базовая цветовая тема редактора. Может быть переопределена в профилях для конкретных языков.
+  "workbench.colorTheme": "Default Dark Modern",
+  // ============================================
+  // НАСТРОЙКИ РЕДАКТОРА (EDITOR) - ОСНОВА
+  // ============================================
+  // Стек шрифтов. 'Cascadia Code' имеет встроенные лигатуры. Убедитесь, что шрифт установлен в системе.
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  // Базовый размер шрифта.
+  "editor.fontSize": 15,
+  // Межстрочный интервал для лучшей читаемости.
+  "editor.lineHeight": 1.6,
+  // Один Tab = 2 пробела.
+  "editor.tabSize": 2,
+  // Использовать пробелы вместо символов табуляции. Критически важно для единообразия кода.
+  "editor.insertSpaces": true,
+  // Отключить автоопределение отступов из файла. Всегда следовать заданным `tabSize` и `insertSpaces`.
+  "editor.detectIndentation": false,
+  // Переносить строки. Используйте `editor.rulers` для обозначения предела длины.
+  "editor.wordWrap": "on",
+  // Отключить мини-карту для экономии места. Включите в профилях, где это важно.
+  "editor.minimap.enabled": false,
+  // ============================================
+  // ФОРМАТИРОВАНИЕ И АВТОСОХРАНЕНИЕ
+  // ============================================
+  // АВТОМАТИЧЕСКОЕ форматирование кода при сохранении файла.
+  "editor.formatOnSave": true,
+  // Определяет, будет ли редактор автоматически форматировать вставленное содержимое.
+  "editor.formatOnPaste": true,
+  // При сохранении:
+  // 1) Исправлять все поправимые проблемы линтера.
+  // 2) Автоматически организовывать импорты.
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  // Тип автосохранения. 'afterDelay' - сохранять через короткий интервал.
+  "files.autoSave": "afterDelay",
+  // Задержка автосохранения в миллисекундах (1 секунда).
+  "files.autoSaveDelay": 1000,
+  // ============================================
+  // НАВИГАЦИЯ И ПРОДУКТИВНОСТЬ
+  // ============================================
+  "editor.mouseWheelZoom": true,
+  // Дублирующая настройка для совместимости. Обеспечивает плавность во всех режимах.
+  "editor.cursorSmoothCaretAnimation": "on",
+  // Модификатор для добавления нескольких курсоров: на Windows/Linux - `Ctrl`, на macOS - `Cmd`.
+  "editor.multiCursorModifier": "ctrlCmd",
+  // Показывать подсказки IntelliSense автоматически при вводе в коде, но не внутри комментариев и строк.
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  // Определяет, имеет ли каждый тип скобок собственный независимый пул цветов.
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  // ============================================
+  // ФАЙЛОВАЯ СИСТЕМА И ИСКЛЮЧЕНИЯ
+  // ============================================
+  // Управление отображением файлов в проводнике.
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+    // Исключить папку `node_modules` из глобального поиска и проводника для повышения производительности.
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true
+    // Исключить папки из отслеживания файловой системой (watcher) для снижения нагрузки на CPU.
+  },
+  "explorer.confirmPasteNative": false,
+  // Проводник: не спрашивать подтверждение при удалении файла.
+  "explorer.confirmDelete": false,
+  // Проводник: не спрашивать подтверждение при перетаскивании.
+  "explorer.confirmDragAndDrop": false,
+  // ============================================
+  // ТЕРМИНАЛ (INTEGRATED TERMINAL)
+  // ============================================
+  // Размер шрифта в интегрированном терминале. Может быть равен или немного меньше editor.fontSize.
+  "terminal.integrated.fontSize": 14,
+  // Профиль терминала по умолчанию для Windows. Для Linux/macOS укажите "bash" или "zsh".
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  // Мигающий курсор в терминале для лучшей видимости.
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "bash (MSYS2)": {
+      "path": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": [
+        "--login",
+        "-i"
+      ],
+      "env": {
+        "CHERE_INVOKING": "1"
+      }
+    }
+  },
+  // ============================================
+  // GIT
+  // ============================================
+  // Автоматически получать изменения с удаленного репозитория.
+  "git.autofetch": true,
+  // Git: объединять все staged изменения в один коммит, если не выбраны файлы.
+  "git.enableSmartCommit": true,
+  // Git: не спрашивать подтверждение перед Pull/Push.
+  "git.confirmSync": false,
+  // ============================================
+  // БЕЗОПАСНОСТЬ И СИНХРОНИЗАЦИЯ
+  // ============================================
+  // Разрешить открывать файлы из недоверенных рабочих областей.
+  "security.workspace.trust.untrustedFiles": "open",
+  // ============================================
+  // КЛЮЧЕВЫЕ ОПЦИИ ДЛЯ ПЕРЕОПРЕДЕЛЕНИЯ В ПРОФИЛЯХ
+  // ============================================
+  // Эти настройки оставлены "нейтральными" в базовом профиле и ДОЛЖНЫ быть заданы в дочерних профилях.
+  "[jsonc]": {
+    // Встроенный форматтер для JSON с комментариями.
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {},
+  "[json]": {},
+  "[c]": {},
+  "[cpp]": {},
+  // Включение лигатур шрифта. Для 'Cascadia Code' установите в true в нужном профиле.
+  "editor.fontLigatures": false,
+  // Пользовательские цвета для темы. Используйте в профилях для акцентов.
+  "workbench.colorCustomizations": {},
+  // ============================================
+  // НАСТРОЙКИ РАСШИРЕНИЙ (EXTENSIONS)
+  // ============================================
+  // Русский язык для GitHub Copilot Chat.
+  "github.copilot.chat.localeOverride": "ru",
+  // Отключить авто-суммаризацию истории чата Copilot.
+  "github.copilot.chat.summarizeAgentConversationHistory.enabled": false,
+  // ============================================
+  // СИСТЕМНЫЕ НАСТРОЙКИ VS CODE
+  // ============================================
+  // Новые окна открывать с вашим базовым профилем.
+  "window.newWindowProfile": "По умолчанию"
+}
